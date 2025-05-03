@@ -1,0 +1,4 @@
+pyinstaller --onefile --icon=binance.ico ^
+--add-data "executebuy.py;." ^
+--add-data "executesell.py;." ^
+launcher_gui.py
